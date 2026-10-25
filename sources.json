@@ -1,0 +1,150 @@
+{
+  "_ghi_chu": "Danh sách nguồn. Mỗi chuyên mục: name, url. Mặc định url là RSS; nếu RSS không có tin, app tự lấy bài từ trang chủ của báo. Đặt \"type\": \"html\" để đọc thẳng từ một trang web (trang chủ / trang chuyên mục). Tùy chọn: \"fallback\": trang web dùng khi RSS hỏng; \"pattern\": biểu thức regex lọc link bài.",
+  "sources": [
+    {
+      "name": "VnExpress",
+      "desc": "Báo điện tử VnExpress",
+      "feeds": [
+        {
+          "name": "Mới nhất",
+          "url": "https://vnexpress.net/rss/tin-moi-nhat.rss"
+        },
+        {
+          "name": "Nổi bật",
+          "url": "https://vnexpress.net/rss/tin-noi-bat.rss"
+        },
+        {
+          "name": "Thời sự",
+          "url": "https://vnexpress.net/rss/thoi-su.rss"
+        },
+        {
+          "name": "Thế giới",
+          "url": "https://vnexpress.net/rss/the-gioi.rss"
+        },
+        {
+          "name": "Kinh doanh",
+          "url": "https://vnexpress.net/rss/kinh-doanh.rss"
+        },
+        {
+          "name": "Khoa học",
+          "url": "https://vnexpress.net/rss/khoa-hoc.rss"
+        },
+        {
+          "name": "Số hóa",
+          "url": "https://vnexpress.net/rss/so-hoa.rss"
+        },
+        {
+          "name": "Giáo dục",
+          "url": "https://vnexpress.net/rss/giao-duc.rss"
+        },
+        {
+          "name": "Thể thao",
+          "url": "https://vnexpress.net/rss/the-thao.rss"
+        }
+      ]
+    },
+    {
+      "name": "VietnamPlus (TTXVN)",
+      "desc": "Thông tấn xã Việt Nam",
+      "feeds": [
+        {
+          "name": "Trang chủ",
+          "url": "https://www.vietnamplus.vn/rss/home.rss"
+        }
+      ]
+    },
+    {
+      "name": "Nhân Dân",
+      "desc": "Cơ quan ngôn luận của Đảng CSVN",
+      "feeds": [
+        {
+          "name": "Trang chủ",
+          "url": "https://nhandan.vn/rss/home.rss"
+        }
+      ]
+    },
+    {
+      "name": "Báo Chính phủ",
+      "desc": "Cổng TTĐT Chính phủ",
+      "feeds": [
+        {
+          "name": "Trang chủ",
+          "url": "https://baochinhphu.vn/",
+          "type": "html"
+        }
+      ]
+    },
+    {
+      "name": "Tuổi Trẻ",
+      "desc": "Báo Tuổi Trẻ Online",
+      "feeds": [
+        {
+          "name": "Mới nhất",
+          "url": "https://tuoitre.vn/rss/tin-moi-nhat.rss"
+        },
+        {
+          "name": "Thời sự",
+          "url": "https://tuoitre.vn/rss/thoi-su.rss"
+        },
+        {
+          "name": "Thế giới",
+          "url": "https://tuoitre.vn/rss/the-gioi.rss"
+        },
+        {
+          "name": "Kinh doanh",
+          "url": "https://tuoitre.vn/rss/kinh-doanh.rss"
+        },
+        {
+          "name": "Công nghệ",
+          "url": "https://tuoitre.vn/rss/nhip-song-so.rss"
+        }
+      ]
+    },
+    {
+      "name": "Thanh Niên",
+      "desc": "Báo Thanh Niên",
+      "feeds": [
+        {
+          "name": "Trang chủ",
+          "url": "https://thanhnien.vn/rss/home.rss"
+        },
+        {
+          "name": "Thời sự",
+          "url": "https://thanhnien.vn/rss/thoi-su.rss"
+        },
+        {
+          "name": "Thế giới",
+          "url": "https://thanhnien.vn/rss/the-gioi.rss"
+        }
+      ]
+    },
+    {
+      "name": "Dân trí",
+      "desc": "Báo điện tử Dân trí",
+      "feeds": [
+        {
+          "name": "Trang chủ",
+          "url": "https://dantri.com.vn/rss/home.rss"
+        },
+        {
+          "name": "Thời sự",
+          "url": "https://dantri.com.vn/rss/thoi-su.rss"
+        },
+        {
+          "name": "Thế giới",
+          "url": "https://dantri.com.vn/rss/the-gioi.rss"
+        }
+      ]
+    },
+    {
+      "name": "BBC Tiếng Việt",
+      "desc": "BBC News Tiếng Việt",
+      "feeds": [
+        {
+          "name": "Tin chính",
+          "url": "https://feeds.bbci.co.uk/vietnamese/rss.xml"
+        }
+      ]
+    }
+  ]
+}

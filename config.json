@@ -1,0 +1,14 @@
+{
+  "utc_offset_hours": 7,
+  "refresh_minutes": 10,
+  "swap_ab": false,
+  "fullscreen": true,
+  "insecure_ssl_fallback": false,
+  "debug_input": false,
+  "raw_buttons": {
+    "A": 3, "B": 4, "X": 6, "Y": 5,
+    "L1": 7, "R1": 8,
+    "SELECT": 9, "START": 10, "MENU": 11,
+    "L2": 13, "R2": 14
+  }
+}
